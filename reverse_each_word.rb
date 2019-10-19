@@ -4,4 +4,4 @@ def reverse_each_word(sentence1)
  new_sentence = new_array.join(" ")
  return new_sentence
 end
-reverse_each_word("Hello there, and how are you?")
+
