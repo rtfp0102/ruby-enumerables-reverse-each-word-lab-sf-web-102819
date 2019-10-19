@@ -6,7 +6,7 @@ def reverse_each_word(sentence1)
  return new_sentence
 end
 def reverse_each_word(sentence1)
- array = sentence1.split(" ")
+ array = %w(sentence1)
  new_array = array.collect{|word| word.reverse}
  new_sentence = new_array.join(" ")
  return new_sentence
